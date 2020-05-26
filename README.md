@@ -1,5 +1,7 @@
 # Data from a TARA Oceans study
 
+### Description
+
 This dataset comes [this study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4851848):
 
 > Guidi, L., Chaffron, S., Bittner, L., Eveillard, D., Larhlimi, A., Roux, S., ... & Coelho, L. P. (2016). Plankton networks driving carbon export in the oligotrophic ocean. Nature, 532(7600), 465-470.
@@ -23,3 +25,11 @@ The `data` subdirectory contains:
 * `SI5_eukaryotic_lineages.tsv`: Supplementary Table 5 containing eukaryotic lineages and their correlations as computed using sparse PLS regression (sPLS)
 
 * Normalised abundance tables
+
+### How did we create these files?
+
+* We **downloaded Supplementary Tables** as Excel sheets (`SI.tables.xlsx`) from http://www.raeslab.org/companion/ocean-carbon-export.html
+
+* For the sheets containing **Table S4** and **S5**, we saved them in the Tab Separated Values (`.tsv`) format.
+
+* **Normalised abundance tables** have just been extracted from the `norm.abundance.matrices.zip` archive and remained unchanged.
